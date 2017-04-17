@@ -32,7 +32,7 @@
     "examples": "npm run predocs && http-server docs/"
   },
   "peerDependencies": {
-    "pixi.js": "*"
+    "pixi.js": "^4.5.0"
   },
   "devDependencies": {
     "@types/pixi.js": "^4.0.0",
