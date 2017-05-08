@@ -31,9 +31,6 @@
     "postpublish": "git push && git push --tags && npm run docs-live",
     "examples": "npm run predocs && http-server docs/"
   },
-  "peerDependencies": {
-    "pixi.js": "latest"
-  },
   "devDependencies": {
     "@types/pixi.js": "^4.0.0",
     "browserify-derequire": "^0.9.4",
