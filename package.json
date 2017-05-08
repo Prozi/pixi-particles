@@ -1,9 +1,9 @@
 {
-  "name": "pixi-particles",
   "version": "3.2.0",
+  "name": "pixi-particles-latest",
   "main": "dist/pixi-particles.js",
   "typings": "index.d.ts",
-  "description": "Particle emitter for Pixi.js",
+  "description": "Particle emitter for Pixi.js, working with any PIXI.js version",
   "author": "Andrew Start <start.andrew@gmail.com>",
   "contributors": [
     {
@@ -32,7 +32,7 @@
     "examples": "npm run predocs && http-server docs/"
   },
   "peerDependencies": {
-    "pixi.js": "^4.5.0"
+    "pixi.js": "latest"
   },
   "devDependencies": {
     "@types/pixi.js": "^4.0.0",
@@ -45,17 +45,16 @@
     "http-server": "*",
     "ncp": "^2.0.0",
     "pixify": "^1.7.0",
-    "pixi.js": "^4.2.2",
     "rimraf": "^2.5.4",
     "semver": "^5.3.0",
     "typescript": "^2.7.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pixijs/pixi-particles"
+    "url": "https://github.com/Prozi/pixi-particles"
   },
   "bugs": {
-    "url": "https://github.com/pixijs/pixi-particles/issues"
+    "url": "https://github.com/Prozi/pixi-particles/issues"
   },
   "files": [
     "dist/",
