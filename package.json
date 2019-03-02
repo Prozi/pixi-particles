@@ -13,8 +13,6 @@
   ],
   "scripts": {
     "clean": "rimraf docs/docs docs/dist .publish",
-    "lint": "eslint src",
-    "prebuild": "npm run lint",
     "build": "tsc && pixify --name pixi-particles -s ts-dist -d dist --external false -p browserify-derequire",
     "postbuild": "ncp dist docs/dist",
     "predocs": "ncp node_modules/pixi.js docs/examples/libs/pixi.js",
@@ -34,12 +32,11 @@
   "devDependencies": {
     "@types/pixi.js": "^4.0.0",
     "browserify-derequire": "^0.9.4",
-    "eslint": "^3.10.2",
     "gh-pages": "^0.11.0",
+    "http-server": "*",
     "jaguarjs-jsdoc": "^1.0.0",
     "js-md5": "^0.4.1",
     "jsdoc": "^3.4.0",
-    "http-server": "*",
     "ncp": "^2.0.0",
     "pixify": "^1.7.0",
     "rimraf": "^2.5.4",
